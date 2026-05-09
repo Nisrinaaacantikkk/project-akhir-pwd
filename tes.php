@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Prediksi SNBP UPN</title>
+    <title>Prediksi SNBP UPNVYK</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
