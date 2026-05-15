@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(120deg,#fff6f8,#f5fffb);
+    min-height:100vh;
+}
+
+/* HEADER */
+.top-header{
+    width:95%;
+    margin:20px auto 0;
+    background:white;
+    border:2px solid #ff8fb4;
+    border-radius:22px;
+    padding:15px 25px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+
+.top-header img{
+    width:58px;
+    height:58px;
+    object-fit:contain;
+}
+
+.top-header h2{
+    font-size:26px;
+    color:#1d2140;
+}
+
+.top-header p{
+    font-size:15px;
+    color:#666;
+}
+
+/* CONTAINER */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85vh;
+    padding:40px 20px;
+}
+
+/* CARD */
+.card{
+    width:540px;
+    background:white;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 12px 35px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+.title{
+    font-size:52px;
+    line-height:1.1;
+    color:#1d2140;
+    margin-bottom:15px;
+}
+
+.title span{
+    color:#ff4d88;
+}
+
+.desc{
+    color:#777;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+/* FORM */
+label{
+    display:block;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:14px;
+    font-weight:600;
+    color:#444;
+}
+
+input,select{
+    width:100%;
+    padding:15px;
+    border-radius:14px;
+    border:1px solid #ddd;
+    background:#fafafa;
+    font-size:15px;
+}
+
+.row{
+    display:flex;
+    gap:15px;
+}
+
+.row div{
+    width:100%;
+}
+
+/* BUTTON */
+.btn{
+    width:100%;
+    padding:16px;
+    margin-top:28px;
+    border:none;
+    border-radius:15px;
+    background:linear-gradient(90deg,#ff4d88,#ff2f6f);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.btn-outline{
+    width:100%;
+    padding:16px;
+    margin-top:15px;
+    border:2px solid #ff6b9d;
+    border-radius:15px;
+    background:white;
+    color:#ff4d88;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* STEP */
+.step{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:35px;
+}
+
+.step div{
+    width:24%;
+    height:6px;
+    border-radius:10px;
+    background:#e5e5e5;
+}
+
+.active{
+    background:#ff4d88 !important;
+}
+
+/* RESULT */
+.result-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+    width:100%;
+}
+
+.result-card{
+    background:white;
+    border-radius:30px;
+    padding:35px;
+    box-shadow:0 12px 35px rgba(0,0,0,0.08);
+}
+
+.result-title{
+    text-align:center;
+    color:#ff4d88;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.center{
+    text-align:center;
+}
+
+.percent{
+    font-size:80px;
+    font-weight:bold;
+    color:#1f9d67;
+}
+
+.progress{
+    width:100%;
+    height:16px;
+    background:#eee;
+    border-radius:30px;
+    overflow:hidden;
+    margin-top:18px;
+}
+
+.progress-bar{
+    height:100%;
+    background:linear-gradient(90deg,#ff5f8f,#7b3ff2);
+}
+
+.status{
+    display:inline-block;
+    margin-top:16px;
+    padding:10px 20px;
+    border-radius:30px;
+    background:#dff7ea;
+    color:#1f9d67;
+    font-weight:bold;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    margin-top:30px;
+    background:#f7f7f7;
+    padding:20px;
+    border-radius:20px;
+}
+
+.analisis{
+    margin-top:30px;
+    background:#fafafa;
+    padding:20px;
+    border-radius:20px;
+}
+
+.analisis li{
+    margin-bottom:15px;
+    color:#555;
+    line-height:1.6;
+}
+
+.bottom-btn{
+    margin-top:30px;
+}
+
+/* RESPONSIVE */
+@media(max-width:1000px){
+    .result-wrapper{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:700px){
+    .title{
+        font-size:38px;
+    }
+    .card{
+        width:100%;
+    }
+    .top-header{
+        flex-direction:column;
+        text-align:center;
+    }
+}
+
+.prodi-name{
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+    color:#555;
+    margin-top:-5px;
+    margin-bottom:20px;
+}
+
+.progress-bar {
+    transition: width 1s ease-in-out;
+}
