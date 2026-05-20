@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
@@ -21,6 +22,21 @@
         <img src="logoupn.png" alt="Logo UPN" >
         <div >
             <h2>Universitas Pembangunan Nasional "Veteran" Yogyakarta</h2>
+=======
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prediksi SNBP</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="top-header">
+        <img src="logoupn.png" alt="Logo UPN">
+        <div>
+            <h2>Universitas Pembangunan Nasional “Veteran” Yogyakarta</h2>
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
             <p>Prediksi Peluang Lolos SNBP</p>
         </div>
     </div>
@@ -41,6 +57,10 @@
                 <label>PRODI PILIHAN 1</label>
                 <select name="prodi1" required>
                     <option value="">-- Pilih Program Studi --</option>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
                     <option value="Teknik Kimia D3|85.51">Teknik Kimia D3</option>
                     <option value="Agribisnis|88.73">Agribisnis</option>
                     <option value="Agroteknologi|88.67">Agroteknologi</option>
@@ -68,6 +88,10 @@
                 <label>PRODI PILIHAN 2</label>
                 <select name="prodi2" required>
                     <option value="">-- Pilih Program Studi --</option>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
                     <option value="Teknik Kimia D3|85.51">Teknik Kimia D3</option>
                     <option value="Agribisnis|88.73">Agribisnis</option>
                     <option value="Agroteknologi|88.67">Agroteknologi</option>
@@ -96,10 +120,13 @@
                     Mulai Prediksi →
                 </button>
             </form>
+<<<<<<< HEAD
 
             <a href="riwayat.php" class="btn-outline" style="display:block;text-align:center;text-decoration:none;padding:16px;margin-top:15px;border:2px solid #ff6b9d;border-radius:15px;color:#ff4d88;font-weight:bold;">
                 Lihat Riwayat Prediksi
             </a>
+=======
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
         </div>
     </div>
 </body>

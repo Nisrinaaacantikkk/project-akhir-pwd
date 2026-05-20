@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -26,6 +27,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <img src="logoupn.png" alt="Logo UPN" >
         <div >
             <h2>Universitas Pembangunan Nasional "Veteran" Yogyakarta</h2>
+=======
+    session_start();
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $_SESSION['nama'] = $_POST['nama'];
+        $_SESSION['akreditasi'] = $_POST['akreditasi'];
+        $_SESSION['peringkat'] = $_POST['peringkat'];
+        $_SESSION['ranking'] = $_POST['ranking'];
+        $_SESSION['eligible'] = $_POST['eligible'];
+        $_SESSION['alumni'] = $_POST['alumni'];
+    } else {
+        header("Location: biodata.php");
+        exit();
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Input Nilai</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="top-header">
+        <img src="logoupn.png" alt="Logo UPN">
+        <div>
+            <h2>Universitas Pembangunan Nasional “Veteran” Yogyakarta</h2>
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
             <p>Prediksi Peluang Lolos SNBP</p>
         </div>
     </div>
@@ -47,6 +81,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <label>Semester 1</label>
                         <input type="number" step="0.01" name="s1" min="1" max="100" required>
                     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
                     <div>
                         <label>Semester 2</label>
                         <input type="number" step="0.01" name="s2" min="1" max="100" required>
@@ -58,6 +96,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <label>Semester 3</label>
                         <input type="number" step="0.01" name="s3" min="1" max="100" required>
                     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
                     <div>
                         <label>Semester 4</label>
                         <input type="number" step="0.01" name="s4" min="1" max="100" required>
@@ -66,8 +108,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <label>Semester 5</label>
                 <input type="number" step="0.01" name="s5" min="1" max="100" required>
+<<<<<<< HEAD
 
                 <h3 style="margin-top:30px;">Prestasi (Opsional)</h3>
+=======
+                <h3 style="margin-top:30px;">
+                    Prestasi (Opsional)
+                </h3>
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
 
                 <div class="row">
                     <div>
@@ -79,6 +127,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <option value="12">Nasional</option>
                         </select>
                     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7571be16df99208c22d146bdab72c1bea6232a6a
                     <div>
                         <label>Prestasi 2</label>
                         <select name="prestasi2">
